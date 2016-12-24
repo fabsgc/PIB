@@ -1,0 +1,79 @@
+[
+    {
+        "name": "gcsystem/framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabsgc/framework.git",
+            "reference": "7424c69c3c6edd7a6b30c4f35d88384741ff12e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabsgc/framework/zipball/7424c69c3c6edd7a6b30c4f35d88384741ff12e6",
+            "reference": "7424c69c3c6edd7a6b30c4f35d88384741ff12e6",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.12"
+        },
+        "time": "2016-11-15 11:07:37",
+        "type": "project",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "GCsystem Framework",
+        "keywords": [
+            "framework",
+            "gcsystem"
+        ]
+    },
+    {
+        "name": "gcsystem/scaffolding",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabsgc/scaffolding.git",
+            "reference": "eccca02c2e0f1ab115a1bd25a2188ee714a0bb5f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabsgc/scaffolding/zipball/eccca02c2e0f1ab115a1bd25a2188ee714a0bb5f",
+            "reference": "eccca02c2e0f1ab115a1bd25a2188ee714a0bb5f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.12"
+        },
+        "time": "2016-11-05 16:25:42",
+        "type": "project",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Scaffolding\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "GCsystem Framework scaffolding plugin",
+        "keywords": [
+            "framework",
+            "gcsystem"
+        ]
+    }
+]
