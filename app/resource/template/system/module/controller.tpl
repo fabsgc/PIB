@@ -1,5 +1,6 @@
 {$php}
 
+
     namespace {ucfirst($src)};
 
     use System\Controller\Controller;
