@@ -27,7 +27,7 @@
 			'hostname'  => 'localhost',
 			'username'  => 'root',
 			'password'  => '',
-			'database'  => 'test',
+			'database'  => 'pib',
 			'driver'    => 'pdo',
 			'type'      => 'mysql',
 			'charset'   => 'utf8',

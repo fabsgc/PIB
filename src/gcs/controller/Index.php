@@ -21,7 +21,7 @@
 		}
 
 		/**
-		 * @Routing(name="index", url="(/*)", method="get")
+		 * @Routing(name="index", url="/gcs(/*)", method="get")
 		 */
 
 		public function actionDefault() {
