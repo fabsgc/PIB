@@ -1,23 +1,22 @@
-{{php: $var='<?php
-	namespace '.ucfirst($src).';
+{$php}
 
-	use System\Controller\Controller;
+    namespace {ucfirst($src)};
 
-	/**
+    use System\Controller\Controller;
+
+    /**
      * Class Index
      * @package Gcs
-     * @Before(class="\\'.ucfirst($src).'\\'.ucfirst($controller).'", method="init")
+     * @Before(class="\{ucfirst($src)}\{ucfirst($controller)}", method="init")
      */
 
-	class '.ucfirst($controller).' extends Controller{
+    class {ucfirst($controller)} extends Controller{
 
-	    /**
-	     * @Routing(name="default", url="/'.lcfirst($src).'/default(/*)", method="*")
+        /**
+         * @Routing(name="default", url="/'.{lcfirst($src)}.'/default(/*)", method="*")
          */
 
-		public function actionDefault(){
-			return $this->showDefault();
-		}
-	}';
-}}
-{$var}
+        public function actionDefault(){
+            return $this->showDefault();
+        }
+    }

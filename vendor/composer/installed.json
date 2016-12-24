@@ -17,7 +17,7 @@
         "require": {
             "php": ">=5.5.12"
         },
-        "time": "2016-11-15 11:07:37",
+        "time": "2016-11-15T11:07:37+00:00",
         "type": "project",
         "extra": {
             "branch-alias": {
@@ -53,7 +53,7 @@
         "require": {
             "php": ">=5.5.12"
         },
-        "time": "2016-11-05 16:25:42",
+        "time": "2016-11-05T16:25:42+00:00",
         "type": "project",
         "extra": {
             "branch-alias": {
