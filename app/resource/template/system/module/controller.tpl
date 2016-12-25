@@ -1,22 +1,22 @@
 {$php}
 
-    namespace {ucfirst($src)};
+	namespace {ucfirst($src)};
 
-    use System\Controller\Controller;
+	use System\Controller\Controller;
 
-    /**
-     * Class Index
-     * @package {ucfirst($src)}
-     * @Before(class="\{ucfirst($src)}\{ucfirst($controller)}", method="init")
-     */
+	/**
+	 * Class Index
+	 * @package {ucfirst($src)}
+	 * @Before(class="\{ucfirst($src)}\{ucfirst($controller)}", method="init")
+	 */
 
-    class {ucfirst($controller)} extends Controller{
+	class {ucfirst($controller)} extends Controller{
 
-        /**
-         * @Routing(name="{lcfirst($src)}-{strtolower($controller)}-default", url="/{lcfirst($src)}/{strtolower($controller)}/default(/*)", method="*")
-         */
+		/**
+		 * @Routing(name="{lcfirst($src)}-{strtolower($controller)}-default", url="/{lcfirst($src)}/{strtolower($controller)}/default(/*)", method="*")
+		 */
 
-        public function actionDefault(){
-            return $this->showDefault();
-        }
-    }
+		public function actionDefault(){
+			return $this->showDefault();
+		}
+	}
