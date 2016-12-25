@@ -1,41 +1,5 @@
 [
     {
-        "name": "gcsystem/framework",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/fabsgc/framework.git",
-            "reference": "7424c69c3c6edd7a6b30c4f35d88384741ff12e6"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/fabsgc/framework/zipball/7424c69c3c6edd7a6b30c4f35d88384741ff12e6",
-            "reference": "7424c69c3c6edd7a6b30c4f35d88384741ff12e6",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.12"
-        },
-        "time": "2016-11-15T11:07:37+00:00",
-        "type": "project",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.1-dev"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "GCsystem Framework",
-        "keywords": [
-            "framework",
-            "gcsystem"
-        ]
-    },
-    {
         "name": "gcsystem/scaffolding",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -53,7 +17,7 @@
         "require": {
             "php": ">=5.5.12"
         },
-        "time": "2016-11-05T16:25:42+00:00",
+        "time": "2016-11-05 16:25:42",
         "type": "project",
         "extra": {
             "branch-alias": {
@@ -71,6 +35,42 @@
             "MIT"
         ],
         "description": "GCsystem Framework scaffolding plugin",
+        "keywords": [
+            "framework",
+            "gcsystem"
+        ]
+    },
+    {
+        "name": "gcsystem/framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabsgc/framework.git",
+            "reference": "4ee3e7de47aadf7c11d0fab45384ca76cd9bde31"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabsgc/framework/zipball/4ee3e7de47aadf7c11d0fab45384ca76cd9bde31",
+            "reference": "4ee3e7de47aadf7c11d0fab45384ca76cd9bde31",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.12"
+        },
+        "time": "2016-12-25 02:14:38",
+        "type": "project",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "GCsystem Framework",
         "keywords": [
             "framework",
             "gcsystem"
