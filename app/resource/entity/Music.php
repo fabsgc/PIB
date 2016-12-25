@@ -1,7 +1,8 @@
 <?php
     namespace Orm\Entity;
 
-    use System\Orm\Entity\Entity;
+    use System\Collection\Collection;
+	use System\Orm\Entity\Entity;
 
     /**
      * Class Music
@@ -24,22 +25,41 @@
 
         /**
          * @var string
-         * @Column(type="STRING", size="255")
+         * @Column(type="STRING", size="255", null="false")
          */
 
         protected $title;
 
         /**
          * @var int
-         * @Column(type="INT")
+         * @Column(type="INT", null="false")
          */
 
         protected $duration;
 
         /**
          * @var string
-         * @Column(type="STRING", size="255")
+         * @Column(type="STRING", size="255", null="false")
          */
 
         protected $path;
+
+		/**
+		 * @param $id int
+		 * @return Music
+		 */
+		public static function findById($id){
+			return Music::find()
+				->where('Subtitle.id = :id')
+				->vars('id', $id)
+				->fetch();
+		}
+
+		/**
+		 * @return Collection
+		 */
+		public static function findAll(){
+			return Music::find()
+				->fetch();
+		}
     }

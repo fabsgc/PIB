@@ -52,4 +52,23 @@
          */
 
         protected $subtitles;
+
+		/**
+		 * @param $id int
+		 * @return Video
+		 */
+		public static function findById($id){
+			return Video::find()
+				->where('Video.id = :id')
+				->vars('id', $id)
+				->fetch();
+		}
+
+		/**
+		 * @return Collection
+		 */
+		public static function findAll(){
+			return Video::find()
+				->fetch();
+		}
     }

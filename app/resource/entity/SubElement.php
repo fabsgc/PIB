@@ -24,14 +24,14 @@
 
         /**
          * @var int
-         * @Column(type="INT", size="255")
+         * @Column(type="INT", size="255", null="false")
          */
 
         protected $time;
 
         /**
          * @var string
-         * @Column(type="STRING", size="255")
+         * @Column(type="STRING", size="255", null="false")
          */
 
         protected $content;

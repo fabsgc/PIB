@@ -26,7 +26,7 @@
 
         /**
          * @var string
-         * @Column(type="STRING", size="255")
+         * @Column(type="STRING", size="255", null="false")
          */
 
         protected $title;
@@ -44,4 +44,23 @@
          */
 
         protected $subElements;
+
+		/**
+		 * @param $id int
+		 * @return Subtitle
+		 */
+		public static function findById($id){
+			return Subtitle::find()
+				->where('Subtitle.id = :id')
+				->vars('id', $id)
+				->fetch();
+		}
+
+		/**
+		 * @return Collection
+		 */
+		public static function findAll(){
+			return Subtitle::find()
+				->fetch();
+		}
     }
