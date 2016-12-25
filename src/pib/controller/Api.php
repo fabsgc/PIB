@@ -20,7 +20,7 @@
 		/**
 		 * @param $id int
 		 * @return string
-		 * @Routing(name="api-video", url="/api/video/([0-9]+)(/*)", method="post")
+		 * @Routing(name="api-video", url="/api/video/([0-9]+)(/*)", vars="id", method="post")
 		 */
 
 		public function actionVideo($id){
@@ -41,7 +41,7 @@
 		/**
 		 * @param $id int
 		 * @return string
-		 * @Routing(name="api-subtitle", url="/api/subtitle/([0-9]+)(/*)", method="post")
+		 * @Routing(name="api-subtitle", url="/api/subtitle/([0-9]+)(/*)", vars="id", method="post")
 		 */
 
 		public function actionSubtitle($id){
@@ -62,7 +62,7 @@
 		/**
 		 * @param $id int
 		 * @return string
-		 * @Routing(name="api-music", url="/api/music/([0-9]+)(/*)", method="post")
+		 * @Routing(name="api-music", url="/api/music/([0-9]+)(/*)", vars="id", method="post")
 		 */
 
 		public function actionMusic($id){
