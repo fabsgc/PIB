@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pib/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Fabien.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Fabien.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-index.cache" afterPath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-index.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Music.php" afterPath="$PROJECT_DIR$/app/resource/entity/Music.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/SubElement.php" afterPath="$PROJECT_DIR$/app/resource/entity/SubElement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Subtitle.php" afterPath="$PROJECT_DIR$/app/resource/entity/Subtitle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Video.php" afterPath="$PROJECT_DIR$/app/resource/entity/Video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/template/system/module/controller.tpl" afterPath="$PROJECT_DIR$/app/resource/template/system/module/controller.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/template/system/module/orm/entity.tpl" afterPath="$PROJECT_DIR$/app/resource/template/system/module/orm/entity.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Index.php" afterPath="$PROJECT_DIR$/src/pib/controller/Index.php" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Api.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pib/controller/Api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
@@ -85,6 +69,26 @@
               <folding>
                 <element signature="e#31#52#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/about.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/pib/resource/template/api/video.tpl" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/api/music.tpl" />
         <option value="$PROJECT_DIR$/src/pib/controller/Api.php" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
       </list>
     </option>
   </component>
@@ -878,6 +883,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1276,12 +1311,12 @@
       <updated>1482539398775</updated>
       <workItem from="1482539400285" duration="3977000" />
       <workItem from="1482602513628" duration="2403000" />
-      <workItem from="1482605385605" duration="14166000" />
+      <workItem from="1482605385605" duration="14279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20546000" />
+    <option name="totallyTimeSpent" value="20659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1591,14 +1626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/log/sql.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1627,14 +1654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/about.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1754,6 +1773,22 @@
           <folding>
             <element signature="e#31#52#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/about.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
