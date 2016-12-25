@@ -3,9 +3,9 @@
     namespace Pib;
 
     use System\Controller\Controller;
-	use System\Template\Template;
+    use System\Template\Template;
 
-	/**
+    /**
      * Class Index
      * @package Pib
      * @Before(class="\Pib\Editor", method="init")
@@ -14,13 +14,13 @@
     class Editor extends Controller{
 
         /**
-		 * @return string
+         * @return string
          * @Routing(name="editor-home", url="/editor(/*)", method="get,post")
          */
 
         public function actionHome(){
-			return (new Template('editor/home', 'pib-index-home'))
-				->assign('title', 'Editeur')
-				->show();
+            return (new Template('editor/home', 'pib-index-home'))
+                ->assign('title', 'Editeur')
+                ->show();
         }
     }
