@@ -7,6 +7,7 @@
 	/**
 	 * Class Index
 	 * @package {ucfirst($src)}
+
 	 * @Before(class="\{ucfirst($src)}\{ucfirst($controller)}", method="init")
 	 */
 
