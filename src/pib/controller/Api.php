@@ -44,7 +44,7 @@
 		 * @Routing(name="api-subtitle", url="/api/subtitle/([0-9]+)(/*)", method="post")
 		 */
 
-			public function actionSubtitle($id){
+		public function actionSubtitle($id){
 			$subtitle = Subtitle::findById($id);
 
 			if($subtitle instanceof Subtitle){
