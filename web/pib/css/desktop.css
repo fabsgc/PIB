@@ -1,0 +1,12 @@
+@media screen and (min-width: 901px) {
+    #header-bottom .content {
+        width: 900px;
+        padding: 80px;
+    }
+
+    #video-home-video .content{
+        margin: auto;
+        border: 5px solid white;
+        border-radius: 4px;
+    }
+}

@@ -10,6 +10,7 @@
      * @Form(name="form-video")
      * @property int $id
      * @property string $title
+     * @property string $poster
      * @property int $duration
      * @property string $path
      * @property Collection $subtitles
@@ -31,6 +32,13 @@
          */
 
         protected $title;
+
+		/**
+		 * @var string
+		 * @Column(type="STRING", size="255")
+		 */
+
+		protected $poster;
 
         /**
          * @var int
@@ -61,7 +69,8 @@
 			return Video::find()
 				->where('Video.id = :id')
 				->vars('id', $id)
-				->fetch();
+				->fetch()
+                ->first();
 		}
 
 		/**

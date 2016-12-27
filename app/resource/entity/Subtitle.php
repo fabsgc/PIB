@@ -53,7 +53,8 @@
 			return Subtitle::find()
 				->where('Subtitle.id = :id')
 				->vars('id', $id)
-				->fetch();
+				->fetch()
+                ->first();
 		}
 
 		/**

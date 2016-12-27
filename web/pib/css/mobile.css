@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) and (min-width: 675px){
+    #header-bottom .content h1 {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 674px) and (min-width: 0px){
+    #header-bottom .content h1 {
+        padding: 60px;
+    }
+}
