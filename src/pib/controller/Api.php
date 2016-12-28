@@ -20,7 +20,7 @@
 		/**
 		 * @param $id int
 		 * @return string
-		 * @Routing(name="api-video", url="/api/video/([0-9]+)(/*)", vars="id", method="post")
+		 * @Routing(name="api-video", url="/api/video/([0-9]+)(/*)", vars="id", method="post,get")
 		 */
 
 		public function actionVideo($id){
@@ -41,7 +41,7 @@
 		/**
 		 * @param $id int
 		 * @return string
-		 * @Routing(name="api-subtitle", url="/api/subtitle/([0-9]+)(/*)", vars="id", method="post")
+		 * @Routing(name="api-subtitle", url="/api/subtitle/([0-9]+)(/*)", vars="id", method="post,get")
 		 */
 
 		public function actionSubtitle($id){
@@ -51,7 +51,7 @@
 				Response::instance()->contentType('application/json');
 
 				return (new Template('api/subtitle', 'pib-api-subtitle'))
-					->assign('video', $subtitle)
+					->assign('subtitle', $subtitle)
 					->show();
 			}
 			else{
@@ -62,11 +62,11 @@
 		/**
 		 * @param $id int
 		 * @return string
-		 * @Routing(name="api-music", url="/api/music/([0-9]+)(/*)", vars="id", method="post")
+		 * @Routing(name="api-music", url="/api/music/([0-9]+)(/*)", vars="id", method="post,get")
 		 */
 
 		public function actionMusic($id){
-			$music = Subtitle::findById($id);
+			$music = Music::findById($id);
 
 			if($music instanceof Music){
 				Response::instance()->contentType('application/json');

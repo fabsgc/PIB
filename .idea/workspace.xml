@@ -2,18 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pib/js/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/abe0457f9b6abc5a0835e9b5b040418c18db38e0.css.cache" afterPath="$PROJECT_DIR$/app/cache/default/abe0457f9b6abc5a0835e9b5b040418c18db38e0.css.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.about.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.about.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.contact.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.contact.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.terms.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.terms.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.top.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.top.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.vote.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.vote.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.video.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.video.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_orm-entity-creation.cache" afterPath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_orm-entity-creation.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_orm-entity-subelement.cache" afterPath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_orm-entity-subelement.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-api.cache" afterPath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-api.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-editor.cache" afterPath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-editor.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Fabien.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Fabien.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Creation.php" afterPath="$PROJECT_DIR$/app/resource/entity/Creation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Music.php" afterPath="$PROJECT_DIR$/app/resource/entity/Music.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/SubElement.php" afterPath="$PROJECT_DIR$/app/resource/entity/SubElement.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Api.php" afterPath="$PROJECT_DIR$/src/pib/controller/Api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/api/music.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/api/music.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/api/subtitle.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/api/subtitle.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/api/video.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/api/video.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/index/top.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/index/top.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/index/video.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/index/video.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/css/default.css" afterPath="$PROJECT_DIR$/web/pib/css/default.css" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,25 +73,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Editor.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Editor.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="536">
+              <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
               <folding>
-                <element signature="e#25#58#0#PHP" expanded="true" />
+                <element signature="e#25#49#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pib/controller/Index.php">
+      <file leaf-file-name="SubElement.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/resource/entity/SubElement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1742">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pib/controller/Api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
-                <element signature="e#24#48#0#PHP" expanded="true" />
+                <element signature="e#25#46#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Music.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/resource/entity/Music.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#70#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,18 +122,71 @@
       <file leaf-file-name="Creation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/resource/entity/Creation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
-              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/resource/entity/Video.php">
+      <file leaf-file-name="sql.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/log/sql.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="857">
-              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+            <state relative-caret-position="5440">
+              <caret line="440" column="98" selection-start-line="440" selection-start-column="98" selection-end-line="440" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1682">
+              <caret line="914" column="76" selection-start-line="914" selection-start-column="76" selection-end-line="914" selection-end-column="76" />
+              <folding>
+                <marker date="1482897363698" expanded="true" signature="18426:18509" ph="INSERT INTO ${$this-&gt;_name}... " />
+                <marker date="1482897363698" expanded="true" signature="20654:20758" ph="DELETE FROM " />
+                <marker date="1482897363698" expanded="true" signature="21060:21346" ph="INSERT INTO ${$table}... " />
+                <marker date="1482897363698" expanded="true" signature="21538:21866" ph="INSERT INTO ${$table}... " />
+                <marker date="1482897363698" expanded="true" signature="32379:32483" ph="DELETE FROM " />
+                <marker date="1482897363698" expanded="true" signature="32785:33071" ph="INSERT INTO ${$table}... " />
+                <marker date="1482897363698" expanded="true" signature="33257:33543" ph="INSERT INTO ${$table}... " />
+                <marker date="1482897363698" expanded="true" signature="37465:37564" ph="DELETE FROM " />
+                <marker date="1482897363698" expanded="true" signature="38090:38177" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pib/js/editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="213" column="74" selection-start-line="213" selection-start-column="74" selection-end-line="213" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="323" column="23" selection-start-line="323" selection-start-column="23" selection-end-line="323" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -116,28 +216,34 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Annotation/Parser.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php" />
         <option value="$PROJECT_DIR$/app/log/cron.log" />
-        <option value="$PROJECT_DIR$/web/pib/css/default.css" />
-        <option value="$PROJECT_DIR$/app/resource/entity/SubElement.php" />
         <option value="$PROJECT_DIR$/app/resource/template/system/module/orm/entity.tpl" />
-        <option value="$PROJECT_DIR$/app/resource/entity/Creation.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/terms.tpl" />
         <option value="$PROJECT_DIR$/app/resource/entity/Video.php" />
         <option value="$PROJECT_DIR$/app/resource/entity/Subtitle.php" />
-        <option value="$PROJECT_DIR$/app/resource/entity/Music.php" />
-        <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
         <option value="$PROJECT_DIR$/src/pib/controller/Index.php" />
-        <option value="$PROJECT_DIR$/src/pib/resource/template/api/video.tpl" />
-        <option value="$PROJECT_DIR$/src/pib/resource/template/api/music.tpl" />
-        <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
         <option value="$PROJECT_DIR$/app/resource/template/system/module/controller.tpl" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/.gitkeep" />
         <option value="$PROJECT_DIR$/app/resource/entity/Custom/.gitkeep" />
         <option value="$PROJECT_DIR$/app/resource/entity/Plugin/.gitkeep" />
         <option value="$PROJECT_DIR$/app/resource/event/.gitignore" />
         <option value="$PROJECT_DIR$/src/gcs/resource/request/Custom/.gitignore" />
-        <option value="$PROJECT_DIR$/src/pib/controller/Api.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/api/video.tpl" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/api/subtitle.tpl" />
+        <option value="$PROJECT_DIR$/app/resource/entity/Music.php" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/api/music.tpl" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/index/top.tpl" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/index/video.tpl" />
+        <option value="$PROJECT_DIR$/src/pib/controller/Api.php" />
+        <option value="$PROJECT_DIR$/app/resource/entity/SubElement.php" />
+        <option value="$PROJECT_DIR$/app/resource/entity/Creation.php" />
         <option value="$PROJECT_DIR$/app/log/sql.log" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php" />
+        <option value="$PROJECT_DIR$/web/pib/css/default.css" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
+        <option value="$PROJECT_DIR$/web/pib/js/editor.js" />
+        <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
       </list>
     </option>
   </component>
@@ -149,10 +255,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1046" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -194,6 +300,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,6 +499,146 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Orm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Orm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssetManager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -470,6 +738,66 @@
               <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -530,6 +858,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -695,21 +1049,24 @@
       <workItem from="1482691322967" duration="153000" />
       <workItem from="1482800435415" duration="73000" />
       <workItem from="1482801340486" duration="1577000" />
+      <workItem from="1482867663147" duration="22359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26825000" />
+    <option name="totallyTimeSpent" value="49184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -721,8 +1078,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -743,112 +1098,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Annotation/Annotations/Annotation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Annotation/Annotation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="296" column="39" selection-start-line="296" selection-start-column="39" selection-end-line="296" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Annotation/Parser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="591" column="37" selection-start-line="591" selection-start-column="37" selection-end-line="591" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cron/Cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Annotation/Annotations/Cron/Cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/cron.log" />
-    <entry file="file://$PROJECT_DIR$/app/log/system.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/SubElement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/top.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/terms.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -867,44 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Music.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-          <folding>
-            <element signature="e#37#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/api/subtitle.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/api/music.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/api/video.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/about.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -945,85 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="86" column="86" selection-start-line="86" selection-start-column="86" selection-end-line="86" selection-end-column="86" />
-          <folding>
-            <marker date="1482801298253" expanded="false" signature="289:428" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="434:491" ph=" Class TerminalCreate ..." />
-            <marker date="1482801298253" expanded="true" signature="542:16711" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="549:590" ph=" return void ..." />
-            <marker date="1482801298253" expanded="true" signature="622:4752" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="707:926" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="837:854" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="866:921" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="986:1455" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="1108:1297" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="1157:1208" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="1221:1291" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="1309:1450" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="1345:1364" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="1377:1444" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="4340:4692" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="4760:4801" ph=" return void ..." />
-            <marker date="1482801298253" expanded="true" signature="4837:6275" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="4922:5139" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5048:5065" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5077:5134" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5189:5799" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5311:5641" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5476:5527" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5540:5635" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5653:5794" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5689:5708" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5721:5788" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="5839:6271" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6283:6324" ph=" return void ..." />
-            <marker date="1482801298253" expanded="true" signature="6356:7078" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6441:7009" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6462:6635" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6558:6577" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6590:6629" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6662:6707" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6719:7004" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="6957:6998" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="7020:7074" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="7086:7221" ph=" Create Entity ..." />
-            <marker date="1482801298253" expanded="true" signature="7263:14450" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="7370:7483" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="7392:7482" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="7552:7612" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="7976:13935" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="8156:8523" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="8448:8517" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="8584:8706" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="8770:8835" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="8943:9054" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="9117:9200" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="9264:9349" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="9413:9496" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="9562:9647" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="9714:9958" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="10023:10265" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="11646:11713" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="11756:11796" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="11840:11905" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="11924:12179" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="12378:12443" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="12462:12756" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="12925:13880" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="12954:13874" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="12972:13387" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="13013:13161" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="13035:13160" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="13076:13124" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="13197:13372" ph="..." />
-            <marker date="1482801298253" expanded="true" signature="13407:13868" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/resource/request/Plugin/.gitkeep">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1035,13 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1658,26 +1783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/controller/Api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#25#46#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#25#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1686,46 +1791,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Subtitle.php">
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalDelete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <element signature="e#37#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/sql.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="1084" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="1084" />
+        <state relative-caret-position="459">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Creation.php">
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cron/Cron.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="459">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Video.php">
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        <state relative-caret-position="714">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1742">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="578">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
           <folding>
             <element signature="e#24#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/about.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="436" column="0" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+          <folding>
+            <marker date="1482867841101" expanded="true" signature="7692:7781" ph="SELECT * FRO... COLUMNS" />
+            <marker date="1482867841101" expanded="true" signature="11950:12178" ph="SELECT COLUM... KEY_COLUMN_USAGE" />
+            <marker date="1482867841101" expanded="true" signature="12489:12755" ph="SELECT COLUM... KEY_COLUMN_USAGE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="270" column="66" selection-start-line="270" selection-start-column="66" selection-end-line="270" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Collection/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pib/js/top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/entity/Subtitle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="e#37#70#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/entity/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="38" selection-start-line="10" selection-start-column="5" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/resource/config/firewall.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/api/subtitle.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/video.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/top.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/api/music.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/api/video.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/controller/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="e#25#46#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/entity/SubElement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/entity/Creation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/log/sql.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5440">
+          <caret line="440" column="98" selection-start-line="440" selection-start-column="98" selection-end-line="440" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="914" column="76" selection-start-line="914" selection-start-column="76" selection-end-line="914" selection-end-column="76" />
+          <folding>
+            <marker date="1482897363698" expanded="true" signature="18426:18509" ph="INSERT INTO ${$this-&gt;_name}... " />
+            <marker date="1482897363698" expanded="true" signature="20654:20758" ph="DELETE FROM " />
+            <marker date="1482897363698" expanded="true" signature="21060:21346" ph="INSERT INTO ${$table}... " />
+            <marker date="1482897363698" expanded="true" signature="21538:21866" ph="INSERT INTO ${$table}... " />
+            <marker date="1482897363698" expanded="true" signature="32379:32483" ph="DELETE FROM " />
+            <marker date="1482897363698" expanded="true" signature="32785:33071" ph="INSERT INTO ${$table}... " />
+            <marker date="1482897363698" expanded="true" signature="33257:33543" ph="INSERT INTO ${$table}... " />
+            <marker date="1482897363698" expanded="true" signature="37465:37564" ph="DELETE FROM " />
+            <marker date="1482897363698" expanded="true" signature="38090:38177" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/entity/Music.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#37#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="323" column="23" selection-start-line="323" selection-start-column="23" selection-end-line="323" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pib/js/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="213" column="74" selection-start-line="213" selection-start-column="74" selection-end-line="213" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+          <folding>
+            <element signature="e#25#49#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,6 +17,8 @@
 	 * @property float score
 	 * @property integer count
      * @property float sum
+     * @property string path
+     * @property string email
 	 * @package Orm\Entity
 	 */
 
@@ -69,6 +71,20 @@
          * @Column(type="FLOAT", null="false", precision="10,0", default="0")
          */
         protected $sum;
+
+        /**
+         * @var string
+         * @Column(type="STRING", size="255", null="true", default="")
+         */
+
+        protected $path;
+
+        /**
+         * @var string
+         * @Column(type="STRING", size="255", null="false")
+         */
+
+        protected $email;
 
         /**
          * Find creation by id

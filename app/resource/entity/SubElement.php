@@ -9,7 +9,9 @@
      * @Form(name="form-subelement")
      * @property int $id
      * @property int $time
+     * @property int $duration
      * @property string $content
+     * @property Subtitle $subtitle
      * @package Orm\Entity
      */
 
@@ -28,6 +30,13 @@
          */
 
         protected $time;
+
+        /**
+         * @var int
+         * @Column(type="INT", size="255", null="false", default="0")
+         */
+
+        protected $duration;
 
         /**
          * @var string

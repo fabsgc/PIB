@@ -8,7 +8,7 @@
                controls preload="auto"
                poster="{$creation->video->poster}"
                data-setup=''>
-            <source src="{$creation->video->path}" type="video/mp4" />
+            <source src="{$creation->path}" type="video/mp4" />
         </video>
         <div class="stars">
             <div id="stars-input-result-{$creation->id}" class="stars-input">
@@ -29,5 +29,11 @@
             setStarsTo('stars-input-result-{$creation->id}', {$creation->score});
             initVideoTop("video-top-video-{$creation->id}");
         </script>
+        <br/>
+        {gc:if condition="$creation->path != ''"}
+            <a href="{$creation->path}" class="button-home">
+                Télécharger
+            </a>
+        {/gc:if}
     </div>
 </div>

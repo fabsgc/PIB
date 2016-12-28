@@ -202,6 +202,128 @@ h1.h1-title{
     left:10px
 }
 
+/* ########## EDITOR ############ */
+
+#video-editor-block{
+    max-width: 700px;
+    margin: auto;
+}
+#video-editor-subtitle{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    margin-bottom: -40px;
+    font-size: 18px;
+}
+select{
+    padding: 10px;
+    margin: 15px 0;
+    outline: none;
+}
+select#video-editor-video,
+select#video-editor-subtitles,
+select#video-editor-musics{
+    width: 100%;
+}
+input[type="email"]{
+    padding: 10px;
+    margin: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type="submit"]{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    width: 225px;
+    background-color: #f8b323;
+    padding: 12px;
+    margin: 20px auto 0 auto;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 3px solid #d0961c;
+    color: #2a1a00;
+    border-radius: 2px;
+    outline: none;
+}
+input.subtitle-element-content{
+    padding: 5px;
+    width: 60%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    outline: none;
+}
+input.subtitle-element-begin{
+    padding: 5px;
+    width: 15%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    outline: none;
+}
+input.subtitle-element-end{
+    padding: 5px;
+    width: 15%;
+    margin-right: 1%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    outline: none;
+}
+.subtitle-element-delete{
+    width: 5%;
+    font-size: 25px;
+    text-align: right;
+    float: right;
+    line-height: 29px;
+    margin-bottom: 5px;
+    outline: none;
+}
+.subtitle-title{
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    outline: none;
+}
+.video-title{
+    padding: 10px;
+    margin: 30px 0 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+a.subtitle-element-add{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    width: 150px;
+    background-color: #f8b323;
+    padding: 6px;
+    margin: 10px 0;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 3px solid #d0961c;
+    color: #2a1a00;
+    border-radius: 2px;
+    outline: none;
+}
+#video-editor-video-time{
+    width: 100%;
+    background-color: #f8b323;
+    height: 35px;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+
 /* ########## FOOTER ############ */
 
 footer{

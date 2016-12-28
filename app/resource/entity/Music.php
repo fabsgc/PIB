@@ -50,7 +50,7 @@
 		 */
 		public static function findById($id){
 			return Music::find()
-				->where('Subtitle.id = :id')
+				->where('Music.id = :id')
 				->vars('id', $id)
 				->fetch()
                 ->first();
