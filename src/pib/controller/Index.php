@@ -83,16 +83,21 @@
             $creation = Creation::findById($id);
 
             if($creation instanceof Creation){
-                if(empty($_SESSION[Data::instance()->env('REMOTE_ADDR')][$id])) {
-                    $creation->count++;
-                    $creation->sum += $vote;
-                    $creation->score = ($creation->sum) / floatval($creation->count);
-                    $creation->update();
+                if($creation->path != ''){
+                    if(empty($_SESSION[Data::instance()->env('REMOTE_ADDR')][$id])) {
+                        $creation->count++;
+                        $creation->sum += $vote;
+                        $creation->score = ($creation->sum) / floatval($creation->count);
+                        $creation->update();
 
-                    $_SESSION[Data::instance()->env('REMOTE_ADDR')][$id] = true;
+                        $_SESSION[Data::instance()->env('REMOTE_ADDR')][$id] = true;
+                    }
+
+                    Response::instance()->header('Location:' . Url::get('index-top'). '#video-' . $creation->id);
                 }
-
-                Response::instance()->header('Location:' . Url::get('index-top'). '#video-' . $creation->id);
+                else{
+                    Response::instance()->status(404);
+                }
             }
             else{
                 Response::instance()->status(404);
@@ -109,10 +114,15 @@
             $creation = Creation::findById($id);
 
             if($creation instanceof Creation){
-                return (new Template('index/video', 'pib-index-video'))
-                    ->assign('title', $creation->title)
-                    ->assign('creation', $creation)
-                    ->show();
+                if($creation->path != '') {
+                    return (new Template('index/video', 'pib-index-video'))
+                        ->assign('title', $creation->title)
+                        ->assign('creation', $creation)
+                        ->show();
+                }
+                else{
+                    Response::instance()->status(404);
+                }
             }
             else{
                 Response::instance()->status(404);
