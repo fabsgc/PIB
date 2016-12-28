@@ -4,6 +4,7 @@ var musicData;
 var music;
 var timeoutHandle;
 var subTitleCustomCount;
+var ready = false;
 
 function resizeVideoJS(){
     videojs("video-editor").ready(function() {
@@ -80,6 +81,7 @@ function loadSubtitles(){
             $.post("/api/subtitle/" + id, function (data) {
                 console.log(data);
                 subtitlesData = data;
+                ready = true;
             });
         });
 
@@ -142,38 +144,40 @@ function loadMusic(){
 }
 
 function startVideo(){
-    videojs("video-editor").ready(function(){
-        var myPlayer = this;
+    if(ready) {
+        videojs("video-editor").ready(function () {
+            var myPlayer = this;
 
-        if(myPlayer.currentTime() == "0"){
-            myPlayer.play();
+            if (myPlayer.currentTime() == "0") {
+                myPlayer.play();
 
-            music = new Audio(musicData.path);
-            music.volume = 0.2;
-            music.play();
+                music = new Audio(musicData.path);
+                music.volume = 0.2;
+                music.play();
 
-            $('#video-start').html("Stop");
+                $('#video-start').html("Stop");
 
-            checkVideo();
+                checkVideo();
 
-            myPlayer.on('ended', function() {
+                myPlayer.on('ended', function () {
+                    music.pause();
+                    myPlayer.pause();
+                    myPlayer.currentTime(0);
+                    window.clearTimeout(timeoutHandle);
+                    $('#video-start').html("Lancer");
+                    $('#video-editor-subtitle').html("");
+                });
+            }
+            else {
                 music.pause();
                 myPlayer.pause();
                 myPlayer.currentTime(0);
                 window.clearTimeout(timeoutHandle);
                 $('#video-start').html("Lancer");
                 $('#video-editor-subtitle').html("");
-            });
-        }
-        else{
-            music.pause();
-            myPlayer.pause();
-            myPlayer.currentTime(0);
-            window.clearTimeout(timeoutHandle);
-            $('#video-start').html("Lancer");
-            $('#video-editor-subtitle').html("");
-        }
-    });
+            }
+        });
+    }
 }
 
 function checkVideo(){
