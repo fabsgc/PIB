@@ -152,7 +152,7 @@ function startVideo(){
                 myPlayer.play();
 
                 music = new Audio(musicData.path);
-                music.volume = 0.2;
+                music.volume = 1;
                 music.play();
 
                 $('#video-start').html("Stop");

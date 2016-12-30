@@ -1,0 +1,6 @@
+ffmpeg -i music.mp3 -af "volume=0.1" music.output.mp3
+
+
+ffmpeg -i video.mp4 -i music.output.mp3  -filter_complex "[0:a][1:a]amerge=inputs=2[a]" -map 0:v -map "[a]" -c:v copy -c:a libvorbis -ac 2 -shortest output.music.mp4
+ffmpeg -i video.mp4 -i subtitle.srt -c copy -c:s mov_text outfile.mp4
+HandBrakeCLI -i outfile.mp4 -o output.mp4 -s 1 --subtitle-burned

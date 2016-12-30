@@ -26,7 +26,7 @@
 
         /**
          * @var int
-         * @Column(type="INT", size="255", null="false")
+         * @Column(type="INT", size="255", null="false", default="0")
          */
 
         protected $time;
