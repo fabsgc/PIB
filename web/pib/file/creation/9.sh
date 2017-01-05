@@ -1,4 +1,0 @@
-#!/bin/bash
-ffmpeg -i C:\wamp64\www\EFREI\PIB/web/pib/file/video/video.mp4 -i C:\wamp64\www\EFREI\PIB/web/pib/file/music/music.mp3 -filter_complex "[0:a][1:a]amerge=inputs=2[a]" -map 0:v -map "[a]" -c:v copy -c:a libvorbis -ac 2 -shortest C:\wamp64\www\EFREI\PIB/web/pib/file/creation/9.1.temp.mp4
-ffmpeg -i C:\wamp64\www\EFREI\PIB/web/pib/file/creation/9.1.temp.mp4 -i C:\wamp64\www\EFREI\PIB/web/pib/file/creation/9.srt -c copy -c:s mov_text C:\wamp64\www\EFREI\PIB/web/pib/file/creation/9.2.temp.mp4
-HandBrakeCLI -i C:\wamp64\www\EFREI\PIB/web/pib/file/creation/9.2.temp.mp4 -o C:\wamp64\www\EFREI\PIB/web/pib/file/creation/9.mp4 -s 1 --subtitle-burned
