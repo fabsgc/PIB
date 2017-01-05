@@ -1,0 +1,2 @@
+Votre vidéo a bien été créée. Cliquez <a href="{{url:editor-encode:$id}}">ici</a> pour générer le fichier.
+Vous pourrez ensuite accéder à votre vidéo et la télécharger sur cette <a href="{{url:index-video:$id}}">page</a>
