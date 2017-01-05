@@ -24,7 +24,7 @@
 
 		'database' => [
 			'enabled'   => true,
-			'hostname'  => 'localhost',
+			'hostname'  => 'alexcarneiro.fr',
 			'username'  => 'root',
 			'password'  => 'azerty89',
 			'database'  => 'basic',
