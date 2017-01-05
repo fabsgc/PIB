@@ -11,7 +11,7 @@
 
 	return [
 		'framework' => [
-			'folder' => '',
+			'folder' => 'PIB/',
 			'http'   => [
 				'error' => [
 					'template' => '.app/error/http',
@@ -24,10 +24,10 @@
 
 		'database' => [
 			'enabled'   => true,
-			'hostname'  => 'localhost',
+			'hostname'  => 'alexcarneiro.fr',
 			'username'  => 'root',
-			'password'  => '',
-			'database'  => 'pib',
+			'password'  => 'azerty89',
+			'database'  => 'basic',
 			'driver'    => 'pdo',
 			'type'      => 'mysql',
 			'charset'   => 'utf8',
