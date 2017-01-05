@@ -5,7 +5,7 @@
     {gc:foreach var="$creations" as="$creation"}
         {gc:if condition="$creation->path != ''"}
             <div id="video-{$creation->id}" class="video-block">
-                <script type="text/javascript" src="/web/pib/js/top.js"></script>
+                <script type="text/javascript" src="/{{path:JS:pib}}top.js"></script>
                 <h2 class="h2-title-video">
                     <a href="{{url:index-video:$creation->id}}">{$creation->title}</a>
                 </h2>

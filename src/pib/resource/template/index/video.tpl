@@ -31,7 +31,7 @@
         </script>
         <br/>
         {gc:if condition="$creation->path != ''"}
-            <a href="/{$creation->path}" class="button-home">
+            <a href="/{{path:FILE:pib}}{$creation->path}" class="button-home">
                 Télécharger
             </a>
         {/gc:if}
