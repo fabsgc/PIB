@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Créer ma vidéo</title>
-        <link rel="icon" type="image/png" href="/{{path:IMAGE:pib}}/static/logo.png" />
-        <script type="text/javascript" src="/web/pib/js/jquery-3.1.1.min.js"></script>
+        <link rel="icon" type="image/png" href="/{{path:IMAGE:pib}}static/logo.png" />
+        <script type="text/javascript" src="/{{path:JS:pib}}jquery-3.1.1.min.js"></script>
         {gc:asset type="css" files="web/pib/css/default.css" cache="0"/}
         <style>
             a{

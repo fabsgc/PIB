@@ -4,12 +4,12 @@
         <div class="content">
             <video id="video-home-video" class="video-js vjs-default-skin vjs-big-play-centered"
                    controls preload="auto"
-                   poster="/web/pib/img/static/video-poster.png"
+                   poster="/{{path:IMAGE:pib}}static/video-poster.png"
                    data-setup=''>
-                <source src="/web/pib/file/video.mp4" type="video/mp4" />
+                <source src="/{{path:FILE:pib}}video.mp4" type="video/mp4" />
             </video>
         </div>
-        <script type="text/javascript" src="/web/pib/js/home.js"></script>
+        <script type="text/javascript" src="/{{path:JS:pib}}home.js"></script>
     </div>
     <div id="video-explication">
         <p>Lorem Salu bissame ! Wie geht's les samis ? Hans apporte moi une Wurschtsalad avec un picon bitte, s'il te plaît.

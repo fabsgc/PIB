@@ -30,14 +30,14 @@ function initVideoEditor(){
 }
 
 function loadVideoEditor(id) {
-    $.post( "/api/video/" + id, function( data ) {
+    $.post( "/PIB/api/video/" + id, function( data ) {
         console.log(data);
         videoData = data;
 
         videojs("video-editor").ready(function() {
             var myPlayer = this;
-            myPlayer.src(data.path);
-            myPlayer.poster(data.poster);
+            myPlayer.src('/PIB/web/pib/file/' + data.path);
+            myPlayer.poster('/PIB/web/pib/file/' + data.poster);
             loadSubtitlesListBox(data);
         });
     });
@@ -78,7 +78,7 @@ function loadSubtitles(){
 
     if(id != "0"){
         $( document ).ready(function() {
-            $.post("/api/subtitle/" + id, function (data) {
+            $.post("/PIB/api/subtitle/" + id, function (data) {
                 console.log(data);
                 subtitlesData = data;
                 ready = true;
@@ -136,7 +136,7 @@ function loadMusic(){
     var id = $('#video-editor-musics').val();
 
     $( document ).ready(function() {
-        $.post("/api/music/" + id, function (data) {
+        $.post("/PIB/api/music/" + id, function (data) {
             console.log(data);
             musicData = data;
         });
@@ -151,7 +151,7 @@ function startVideo(){
             if (myPlayer.currentTime() == "0") {
                 myPlayer.play();
 
-                music = new Audio(musicData.path);
+                music = new Audio('/PIB/web/pib/file/' +musicData.path);
                 music.volume = 1;
                 music.play();
 

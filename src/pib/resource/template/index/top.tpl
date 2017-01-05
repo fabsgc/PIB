@@ -11,9 +11,9 @@
                 </h2>
                 <video id="video-top-video-{$creation->id}" class="video-js vjs-default-skin vjs-big-play-centered"
                        controls preload="auto"
-                       poster="{$creation->video->poster}"
+                       poster="/{{path:FILE:pib}}{$creation->video->poster}"
                        data-setup=''>
-                    <source src="{$creation->path}" type="video/mp4" />
+                    <source src="/{{path:FILE:pib}}{$creation->path}" type="video/mp4" />
                 </video>
                 <div class="stars">
                     <div id="stars-input-result-{$creation->id}" class="stars-input">

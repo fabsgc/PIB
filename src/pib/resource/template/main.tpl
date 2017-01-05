@@ -3,11 +3,11 @@
 <head>
     <title>{$title}</title>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="/{{path:IMAGE:pib}}/static/logo.png" />
-    <script type="text/javascript" src="/web/pib/js/video.js"></script>
-    <script type="text/javascript" src="/web/pib/js/jquery-3.1.1.min.js"></script>
-    <link href="/web/pib/css/video-js.css" rel="stylesheet" media="screen" type="text/css" />
-    <link href="/web/pib/file/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css" />
+    <link rel="icon" type="image/png" href="/{{path:IMAGE:pib}}static/logo.png" />
+    <script type="text/javascript" src="/{{path:JS:pib}}video.js"></script>
+    <script type="text/javascript" src="/{{path:JS:pib}}jquery-3.1.1.min.js"></script>
+    <link href="/{{path:CSS:pib}}video-js.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="/{{path:FILE:pib}}font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen" type="text/css" />
     {gc:asset type="css" files="web/pib/css/default.css,web/pib/css/desktop.css,web/pib/css/mobile.css" cache="0"/}
 </head>
 <body>

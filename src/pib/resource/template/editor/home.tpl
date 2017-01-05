@@ -1,7 +1,7 @@
 {gc:extends file="main"/}
 <div class="content">
     <div id="video-editor-block">
-        <script type="text/javascript" src="/web/pib/js/editor.js"></script>
+        <script type="text/javascript" src="/{{path:JS:pib}}editor.js"></script>
 
         <form action="{{url:editor-save}}" method="post">
             <a onclick="startVideo()" class="button-home" id="video-start">
@@ -20,7 +20,7 @@
             <video id="video-editor" class="video-js vjs-default-skin vjs-big-play-centered"
                    preload="auto"
                    poster="{$videos->first()->poster}"
-                   data-setup='{"sources": [{"type": "video/mp4", "src":"{$videos->first()->path}"}] }'>
+                   data-setup='{"sources": [{"type": "video/mp4", "src":"/{{path:FILE:pib}}{$videos->first()->path}"}] }'>
             </video>
 
             <div id="video-editor-subtitle">
