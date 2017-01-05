@@ -4,32 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encodeAjax.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pib/resource/template/mail/video.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pib/file/creation/9.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gcs/resource/event/Mail.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.music.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.music.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.subtitle.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.subtitle.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.video.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.video.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encode.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encode.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.top.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.top.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.video.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.video.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.vote.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.vote.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/eff2e0c587fe7ec45e113314e1742944dda07cab.css.cache" afterPath="$PROJECT_DIR$/app/cache/default/eff2e0c587fe7ec45e113314e1742944dda07cab.css.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-editor.cache" afterPath="$PROJECT_DIR$/app/cache/default/gcs_cache_annotation_pib-editor.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/index/video.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/index/video.tpl" />
-    </list>
+    <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="" />
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -78,8 +53,8 @@
       <file leaf-file-name="video.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/video.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="494">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -828,12 +803,12 @@
       <workItem from="1483062961283" duration="5853000" />
       <workItem from="1483108335251" duration="8000" />
       <workItem from="1483133690915" duration="7060000" />
-      <workItem from="1483621681380" duration="3045000" />
+      <workItem from="1483621681380" duration="3343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69802000" />
+    <option name="totallyTimeSpent" value="70100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1815,8 +1790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/video.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="494">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
