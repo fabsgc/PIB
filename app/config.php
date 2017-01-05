@@ -11,7 +11,7 @@
 
 	return [
 		'framework' => [
-			'folder' => 'PIB/',
+			'folder' => '',
 			'http'   => [
 				'error' => [
 					'template' => '.app/error/http',

@@ -35,7 +35,7 @@ function vote(div, id, e) {
 
     $('#' + div + " .stars-value").css("width", width*score/5 + "px");
 
-    window.location.href = '/PIB/vote/' + id + '/' + score;
+    window.location.href = '/vote/' + id + '/' + score;
 }
 
 function setStarsTo(div, value) {

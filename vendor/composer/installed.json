@@ -17,7 +17,7 @@
         "require": {
             "php": ">=5.5.12"
         },
-        "time": "2016-11-05T16:25:42+00:00",
+        "time": "2016-11-05 16:25:42",
         "type": "project",
         "extra": {
             "branch-alias": {
@@ -47,18 +47,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/fabsgc/framework.git",
-            "reference": "1ee5df1145d76dc492e174e219a8b7d84fc6443c"
+            "reference": "ec823c7dc7aed00a96e1d34d59c912cf4666434c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fabsgc/framework/zipball/1ee5df1145d76dc492e174e219a8b7d84fc6443c",
-            "reference": "1ee5df1145d76dc492e174e219a8b7d84fc6443c",
+            "url": "https://api.github.com/repos/fabsgc/framework/zipball/ec823c7dc7aed00a96e1d34d59c912cf4666434c",
+            "reference": "ec823c7dc7aed00a96e1d34d59c912cf4666434c",
             "shasum": ""
         },
         "require": {
             "php": ">=5.5.12"
         },
-        "time": "2016-12-27T18:44:07+00:00",
+        "time": "2017-01-05 15:45:47",
         "type": "project",
         "extra": {
             "branch-alias": {

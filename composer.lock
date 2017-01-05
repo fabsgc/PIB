@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "40987057cbaccbd86505c705552f623d",
     "content-hash": "254f8d3b42c395a881f7f07843b2122d",
     "packages": [
         {
@@ -12,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabsgc/framework.git",
-                "reference": "1ee5df1145d76dc492e174e219a8b7d84fc6443c"
+                "reference": "ec823c7dc7aed00a96e1d34d59c912cf4666434c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabsgc/framework/zipball/1ee5df1145d76dc492e174e219a8b7d84fc6443c",
-                "reference": "1ee5df1145d76dc492e174e219a8b7d84fc6443c",
+                "url": "https://api.github.com/repos/fabsgc/framework/zipball/ec823c7dc7aed00a96e1d34d59c912cf4666434c",
+                "reference": "ec823c7dc7aed00a96e1d34d59c912cf4666434c",
                 "shasum": ""
             },
             "require": {
@@ -38,7 +39,7 @@
                 "framework",
                 "gcsystem"
             ],
-            "time": "2016-12-27 18:44:07"
+            "time": "2017-01-05 15:45:47"
         },
         {
             "name": "gcsystem/scaffolding",

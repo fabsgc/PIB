@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
         <title>Créer ma vidéo</title>
         <link rel="icon" type="image/png" href="/{{path:IMAGE:pib}}static/logo.png" />
         <script type="text/javascript" src="/{{path:JS:pib}}jquery-3.1.1.min.js"></script>
