@@ -11,7 +11,7 @@
 
 	return [
 		'framework' => [
-			'folder' => '/PIB',
+			'folder' => '',
 			'http'   => [
 				'error' => [
 					'template' => '.app/error/http',
@@ -26,8 +26,8 @@
 			'enabled'   => true,
 			'hostname'  => 'localhost',
 			'username'  => 'root',
-			'password'  => '',
-			'database'  => 'pib',
+			'password'  => 'azerty89',
+			'database'  => 'basic',
 			'driver'    => 'pdo',
 			'type'      => 'mysql',
 			'charset'   => 'utf8',
