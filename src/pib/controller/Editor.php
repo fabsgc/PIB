@@ -154,14 +154,14 @@ class Editor extends Controller{
 
             file_put_contents('web/pib/file/creation/' . $id . '.srt', $data);
 
-            $directory = str_replace('\src\pib\controller', '', realpath(dirname(__FILE__)));
+            $directory = str_replace('/src/pib/controller', '', realpath(dirname(__FILE__)));
             $directoryCreation = '/web/pib/file/creation/';
 
             $shell = '#!/bin/bash'."\n";
 
             $shell .= 'ffmpeg -i ' . $directory . $creation->video->path . ' -i ' . $directory . $creation->music->path . ' -filter_complex "[0:a][1:a]amerge=inputs=2[a]" -map 0:v -map "[a]" -c:v copy -c:a libvorbis -ac 2 -shortest ' . $directory . $directoryCreation . $id . '.1.temp.mp4'."\n";
             $shell .= 'ffmpeg -i ' . $directory . $directoryCreation . $id . '.1.temp.mp4 -i ' . $directory . $directoryCreation . $id . '.srt -c copy -c:s mov_text ' . $directory . $directoryCreation . $id . '.2.temp.mp4'."\n";
-            $shell .= 'HandBrakeCLI -i ' . $directory . $directoryCreation . $id . '.2.temp.mp4 -o ' . $directory . $directoryCreation . $id . '.mp4 -s 1 --subtitle-burned';
+            $shell .= 'HandBrake -i ' . $directory . $directoryCreation . $id . '.2.temp.mp4 -o ' . $directory . $directoryCreation . $id . '.mp4 -s 1 --subtitle-burned';
 
             file_put_contents('web/pib/file/creation/' . $id . '.sh', $shell);
 
@@ -171,7 +171,7 @@ class Editor extends Controller{
             echo '<br /><br />';
             echo 'HandBrakeCLI -i ' . $directory . $directoryCreation . $id . '.2.temp.mp4 -o ' . $directory . $directoryCreation . $id . '.mp4 -s 1 --subtitle-burned';
 
-            shell_exec($directory . $directoryCreation . $id . '.sh');
+            shell_exec('bash '.$directory . $directoryCreation . $id . '.sh');
         }
         else{
             Response::instance()->status(404);
