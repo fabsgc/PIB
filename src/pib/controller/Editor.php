@@ -162,7 +162,7 @@ class Editor extends Controller{
 
             $shell .= 'ffmpeg -i ' . $directory . '/web/pib/file/' . $creation->video->path . ' -i ' . $directory . '/web/pib/file/' . $creation->music->path . ' -filter_complex "[0:a][1:a]amerge=inputs=2[a]" -map 0:v -map "[a]" -c:v copy -c:a libvorbis -ac 2 -shortest ' . $directory . $directoryCreation . $id . '.1.temp.mp4'."\n";
             $shell .= 'ffmpeg -i ' . $directory . $directoryCreation . $id . '.1.temp.mp4 -i ' . $directory . $directoryCreation . $id . '.srt -c copy -c:s mov_text ' . $directory . $directoryCreation . $id . '.2.temp.mp4'."\n";
-            $shell .= 'HandBrake -i ' . $directory . $directoryCreation . $id . '.2.temp.mp4 -o ' . $directory . $directoryCreation . $id . '.mp4 -s 1 --subtitle-burned';
+            $shell .= 'HandBrakeCLI -i ' . $directory . $directoryCreation . $id . '.2.temp.mp4 -o ' . $directory . $directoryCreation . $id . '.mp4 -s 1 --subtitle-burned';
 
             file_put_contents('web/pib/file/creation/' . $id . '.sh', $shell);
 
