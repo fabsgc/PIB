@@ -81,7 +81,7 @@ class Editor extends Controller{
                 'subject'  => 'Votre vidéo a bien été enregistrée',
             ]);
 
-            $mail->addTemplate('mail/register', [
+            $mail->addTemplate('mail/video', [
                 'id' => $creation->id
             ]);
 

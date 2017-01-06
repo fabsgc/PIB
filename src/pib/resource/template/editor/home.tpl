@@ -19,7 +19,7 @@
 
             <video id="video-editor" class="video-js vjs-default-skin vjs-big-play-centered"
                    preload="auto"
-                   poster="{$videos->first()->poster}"
+                   poster="/{{path:FILE:pib}}{$videos->first()->poster}"
                    data-setup='{"sources": [{"type": "video/mp4", "src":"/{{path:FILE:pib}}{$videos->first()->path}"}] }'>
             </video>
 
