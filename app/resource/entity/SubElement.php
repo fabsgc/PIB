@@ -47,8 +47,7 @@
 
         /**
          * @var Subtitle
-         * @ManyToOne(to="SubTitle.id")
-         */
+         * @ManyToOne(to="Subtitle.id") */
 
         protected $subtitle;
     }
