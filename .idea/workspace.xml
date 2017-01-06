@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/css/default.css" afterPath="$PROJECT_DIR$/web/pib/css/default.css" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +40,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Editor.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Editor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="571">
               <caret line="162" column="135" selection-start-line="162" selection-start-column="135" selection-end-line="162" selection-end-column="135" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="282" column="17" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -126,7 +136,6 @@
         <option value="$PROJECT_DIR$/app/resource/entity/Creation.php" />
         <option value="$PROJECT_DIR$/app/log/sql.log" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php" />
-        <option value="$PROJECT_DIR$/web/pib/css/default.css" />
         <option value="$PROJECT_DIR$/src/pib/controller/Index.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/mail/video.tpl" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -149,6 +158,7 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
         <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
+        <option value="$PROJECT_DIR$/web/pib/css/default.css" />
       </list>
     </option>
   </component>
@@ -206,6 +216,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PIB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -770,12 +834,12 @@
       <workItem from="1483629335483" duration="4156000" />
       <workItem from="1483654511065" duration="1279000" />
       <workItem from="1483695075715" duration="3921000" />
-      <workItem from="1483706886800" duration="3721000" />
+      <workItem from="1483706886800" duration="4335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84416000" />
+    <option name="totallyTimeSpent" value="85030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1577,13 +1641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="364" column="1" selection-start-line="364" selection-start-column="1" selection-end-line="364" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Spam.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2028">
@@ -1707,6 +1764,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
           <caret line="162" column="135" selection-start-line="162" selection-start-column="135" selection-end-line="162" selection-end-column="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="282" column="17" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
           <folding />
         </state>
       </provider>
