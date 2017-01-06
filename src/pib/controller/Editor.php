@@ -131,7 +131,7 @@ class Editor extends Controller{
         $creation = Creation::findById($id);
 
         if($creation instanceof Creation){
-            $creation->path = 'web/pib/file/creation/' . $id . '.mp4';
+            $creation->path = 'creation/' . $id . '.mp4';
             $creation->update();
 
             /** @var Subtitle $subtitle */
