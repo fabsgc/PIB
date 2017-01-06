@@ -4,7 +4,7 @@
     use System\Orm\Entity\Entity;
 
     /**
-     * Class SubElement
+     * Class Subelement
      * @Table(name="subelement")
      * @Form(name="form-subelement")
      * @property int $id
@@ -15,7 +15,7 @@
      * @package Orm\Entity
      */
 
-    class SubElement extends Entity {
+    class Subelement extends Entity {
 
         /**
          * @var int

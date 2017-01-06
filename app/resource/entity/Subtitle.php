@@ -40,7 +40,7 @@
 
         /**
          * @var Collection
-         * @OneToMany(from="Subtitle.id", to="SubElement.subtitle", belong="COMPOSITION", join="JOIN_LEFT")
+         * @OneToMany(from="Subtitle.id", to="Subelement.subtitle", belong="COMPOSITION", join="JOIN_LEFT")
          */
 
         protected $subElements;

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/resource/entity/SubElement.php" afterPath="$PROJECT_DIR$/app/resource/entity/Subelement.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/SubElement.php" afterPath="$PROJECT_DIR$/app/resource/entity/SubElement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Subtitle.php" afterPath="$PROJECT_DIR$/app/resource/entity/Subtitle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubElement.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/resource/entity/SubElement.php">
+      <file leaf-file-name="Subelement.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/resource/entity/Subelement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="441">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pib/controller/Default.php" />
         <option value="$PROJECT_DIR$/src/gcs/controller/Index.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/config/route.xml" />
         <option value="$PROJECT_DIR$/app/resource/Videoidsubtitleid.php" />
@@ -170,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeEntity.php" />
         <option value="$PROJECT_DIR$/app/resource/entity/SubElement.php" />
+        <option value="$PROJECT_DIR$/app/resource/entity/Subelement.php" />
       </list>
     </option>
   </component>
@@ -618,12 +620,12 @@
       <workItem from="1483621681380" duration="4582000" />
       <workItem from="1483629335483" duration="4156000" />
       <workItem from="1483654511065" duration="1279000" />
-      <workItem from="1483695075715" duration="2037000" />
+      <workItem from="1483695075715" duration="2248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78811000" />
+    <option name="totallyTimeSpent" value="79022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1553,10 +1555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/SubElement.php">
+    <entry file="file://$PROJECT_DIR$/app/resource/entity/Subelement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="441">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>

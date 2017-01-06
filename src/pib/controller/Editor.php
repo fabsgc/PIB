@@ -5,7 +5,7 @@ namespace Pib;
 use Helper\Mail\Mail;
 use Orm\Entity\Creation;
 use Orm\Entity\Music;
-use Orm\Entity\SubElement;
+use Orm\Entity\Subelement;
 use Orm\Entity\Subtitle;
 use Orm\Entity\Video;
 use System\Controller\Controller;
@@ -62,7 +62,7 @@ class Editor extends Controller{
                 $subtitle->insert();
 
                 foreach ($_POST['subtitle-elements'] as $element) {
-                    $subElement = new SubElement();
+                    $subElement = new Subelement();
                     $subElement->content = $element['content'];
                     $subElement->time = $element['begin'] * 100;
                     $subElement->duration = $element['end'] * 100 - $element['begin'] * 100;
@@ -131,7 +131,7 @@ class Editor extends Controller{
 
             /**
              * @var int $key
-             * @var SubElement $subelement
+             * @var Subelement $subelement
              */
             foreach ($subtitle->subElements as $key => $subelement){
                 $data .= ($key + 1) . "\n";
