@@ -112,6 +112,15 @@ class Editor extends Controller{
     }
 
     /**
+     * @return string
+     * @Routing(name="editor-phpinfo", url="/phpinfo(/*)", method="get")
+     */
+
+    public function actionPhpInfo(){
+        phpinfo();
+    }
+
+    /**
      * @param $id int
      * @return void
      * @Routing(name="editor-encode-ajax", url="/encode/([0-9]+)(/*)", vars="id", method="post")
