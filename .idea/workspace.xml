@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/css/default.css" afterPath="$PROJECT_DIR$/web/pib/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,17 +40,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Editor.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Editor.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="162" column="135" selection-start-line="162" selection-start-column="135" selection-end-line="162" selection-end-column="135" />
+            <state relative-caret-position="285">
+              <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -157,8 +157,8 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
-        <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
         <option value="$PROJECT_DIR$/web/pib/css/default.css" />
+        <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
       </list>
     </option>
   </component>
@@ -834,12 +834,12 @@
       <workItem from="1483629335483" duration="4156000" />
       <workItem from="1483654511065" duration="1279000" />
       <workItem from="1483695075715" duration="3921000" />
-      <workItem from="1483706886800" duration="4335000" />
+      <workItem from="1483706886800" duration="4494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85030000" />
+    <option name="totallyTimeSpent" value="85189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1760,18 +1760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="162" column="135" selection-start-line="162" selection-start-column="135" selection-end-line="162" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="282" column="17" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
           <folding />
         </state>
       </provider>
