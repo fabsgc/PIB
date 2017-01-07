@@ -28,9 +28,21 @@
             <div id="main">
                 <div class="content">
                     <h1 class="h1-title">Création de votre vidéo en cours</h1>
-                    <p>Elle sera disponible <a href="{{url:index-video:$id}}">ici</a> dans quelques minutes</p>
+                    <p>Elle sera disponible dans moins de 2 minutes</p>
+                    <div id="link" style="display:none;">
+                        <a href="{{url:index-video:$id}}" class="button-home">
+                            Voir ma vidéo !
+                        </a>
+                    </div>
                 </div>
             </div>
+            <script type="text/javascript">
+                $( document ).ready(function() {
+                    setTimeout(function() {
+                        $('#link').css('display', 'block');
+                    }, 120000);
+                });
+            </script>
         </div>
         <script type="text/javascript">
             $.post( "{{url:editor-encode-ajax:$id}}", function( data ) { });

@@ -9,6 +9,7 @@ use Orm\Entity\Subelement;
 use Orm\Entity\Subtitle;
 use Orm\Entity\Video;
 use System\Controller\Controller;
+use System\Exception\MissingEntityException;
 use System\Response\Response;
 use System\Template\Template;
 use System\Url\Url;
@@ -46,49 +47,45 @@ class Editor extends Controller{
         $email = $_POST['email'];
 
         if($video instanceof Video && $music instanceof Music) {
-            $creation = new Creation();
-            $creation->video = $video;
-            $creation->music = $music;
-            $creation->title = $title;
-            $creation->email = $email;
+            try {
+                $creation = new Creation();
+                $creation->video = $video;
+                $creation->music = $music;
+                $creation->title = $title;
+                $creation->email = $email;
 
-            if ($_POST['video-editor-subtitles'] != 0) {
-                $creation->subtitle = Subtitle::findById($_POST['video-editor-subtitles']);
-            }
-            else {
-                $subtitle = new Subtitle();
-                $subtitle->title = $_POST['subtitle-title'];
-                $subtitle->video = $video;
-                $subtitle->insert();
+                if ($_POST['video-editor-subtitles'] != 0) {
+                    $creation->subtitle = Subtitle::findById($_POST['video-editor-subtitles']);
+                } else {
+                    $subtitle = new Subtitle();
+                    $subtitle->title = $_POST['subtitle-title'];
+                    $subtitle->video = $video;
+                    $subtitle->insert();
 
-                foreach ($_POST['subtitle-elements'] as $element) {
-                    $subElement = new Subelement();
-                    $subElement->content = $element['content'];
-                    $subElement->time = $element['begin'] * 100;
-                    $subElement->duration = $element['end'] * 100 - $element['begin'] * 100;
-                    $subElement->subtitle = $subtitle;
-                    $subElement->insert();
+                    foreach ($_POST['subtitle-elements'] as $element) {
+                        $subElement = new Subelement();
+                        $subElement->content = $element['content'];
+                        $subElement->time = $element['begin'] * 100;
+                        $subElement->duration = $element['end'] * 100 - $element['begin'] * 100;
+                        $subElement->subtitle = $subtitle;
+                        $subElement->insert();
+                    }
+
+                    $creation->subtitle = $subtitle;
                 }
 
-                $creation->subtitle = $subtitle;
+                $creation->insert();
+
+                Response::instance()->header('Location:' . Url::get('editor-encode', [$creation->id]));
             }
-
-            $creation->insert();
-
-            $mail = new Mail([
-                'sender'   => 'contact@pib.fr',
-                'receiver' => $creation->email,
-                'subject'  => 'Votre vidéo a bien été enregistrée',
-            ]);
-
-            $mail->addTemplate('mail/video', [
-                'id' => $creation->id
-            ]);
-
-            $mail->send();
+            catch(MissingEntityException $e){
+                Response::instance()->header('Location:' . Url::get('editor-home'));
+                $_SESSION['flash'] = 'Une erreur est survenir pendant l\'enregistrement';
+            }
         }
-
-        Response::instance()->header('Location:' . Url::get('editor-home'));
+        else{
+            Response::instance()->header('Location:' . Url::get('editor-home'));
+        }
     }
 
     /**
@@ -109,15 +106,6 @@ class Editor extends Controller{
         else{
             Response::instance()->status(404);
         }
-    }
-
-    /**
-     * @return string
-     * @Routing(name="editor-phpinfo", url="/phpinfo(/*)", method="get")
-     */
-
-    public function actionPhpInfo(){
-        phpinfo();
     }
 
     /**
@@ -170,19 +158,6 @@ class Editor extends Controller{
         }
         else{
             Response::instance()->status(404);
-        }
-    }
-
-    /**
-     * @return void
-     * @Routing(name="editor-encode-all", url="/encode(/*)", method="get")
-     */
-
-    public function actionEncodeAll(){
-        $creations = Creation::find()->where("Creation.path = ''")->fetch();
-
-        foreach ($creations as $creation){
-            $this->actionEncode($creation->id);
         }
     }
 

@@ -24,4 +24,7 @@
     <a href="{{url:index-top}}" class="button-home">
         Les meilleures vidéos
     </a>
+    <a href="{{url:index-shhop}}" class="button-home">
+        La boutique
+    </a>
 </div>

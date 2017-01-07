@@ -1,5 +1,31 @@
 {gc:extends file="main"/}
 <div class="content">
+    {gc:if condition="isset($_SESSION['flash']) && $_SESSION['flash'] != ''"}
+        <div id="flash-message">
+            <div class="alert alert-success">
+                <div class="close" onclick="closeFlashMessage(this);"><span class="fa fa-times">&nbsp;</span></div>
+                {$_SESSION['flash']}
+                {{php: $_SESSION['flash'] = ''; }}
+            </div>
+        </div>
+    {/gc:if}
+    <script type="text/javascript">
+        function closeFlashMessage(objet) {
+            $(objet.parentNode).animate({
+                    height: "0px",
+                    opacity: "0",
+                    margin: "0",
+                    padding: "0"
+                },
+                250,
+                function () {
+                    $(objet.parentNode).remove();
+                    height();
+                }
+            );
+        }
+    </script>
+
     <div id="video-editor-block">
         <script type="text/javascript" src="/{{path:JS:pib}}editor.js"></script>
 

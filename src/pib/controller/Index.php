@@ -128,4 +128,15 @@
                 Response::instance()->status(404);
             }
         }
+
+        /**
+         * @return string
+         * @Routing(name="index-shop", url="/shop(/*)", method="get")
+         */
+
+        public function actionShop(){
+            return (new Template('index/shop', 'pib-index-shop'))
+                ->assign('title', 'La boutique')
+                ->show();
+        }
 	}
