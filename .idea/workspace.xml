@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/abe0457f9b6abc5a0835e9b5b040418c18db38e0.css.cache" afterPath="$PROJECT_DIR$/app/cache/default/abe0457f9b6abc5a0835e9b5b040418c18db38e0.css.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.music.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.music.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.subtitle.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.subtitle.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.video.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.video.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encode.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encode.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encodeAjax.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encodeAjax.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.save.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.save.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/eff2e0c587fe7ec45e113314e1742944dda07cab.css.cache" afterPath="$PROJECT_DIR$/app/cache/default/eff2e0c587fe7ec45e113314e1742944dda07cab.css.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/js/editor.js" afterPath="$PROJECT_DIR$/web/pib/js/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/css/default.css" afterPath="$PROJECT_DIR$/web/pib/css/default.css" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pib/js/editor.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
@@ -127,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="552" column="18" selection-start-line="552" selection-start-column="18" selection-end-line="552" selection-end-column="18" />
+            <state relative-caret-position="268">
+              <caret line="279" column="12" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -191,11 +174,11 @@
         <option value="$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl" />
         <option value="$PROJECT_DIR$/src/pib/controller/Index.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/shop.tpl" />
-        <option value="$PROJECT_DIR$/web/pib/css/default.css" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/home.tpl" />
         <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
         <option value="$PROJECT_DIR$/web/pib/js/editor.js" />
+        <option value="$PROJECT_DIR$/web/pib/css/default.css" />
       </list>
     </option>
   </component>
@@ -894,12 +877,12 @@
       <workItem from="1483654511065" duration="1279000" />
       <workItem from="1483695075715" duration="3921000" />
       <workItem from="1483706886800" duration="6314000" />
-      <workItem from="1483812866771" duration="5216000" />
+      <workItem from="1483812866771" duration="5635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92225000" />
+    <option name="totallyTimeSpent" value="92644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1157,6 +1140,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="655" column="55" selection-start-line="655" selection-start-column="55" selection-end-line="655" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,14 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="552" column="18" selection-start-line="552" selection-start-column="18" selection-end-line="552" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/shop.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1325,6 +1301,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pib/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="279" column="12" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
           <folding />
         </state>
       </provider>
