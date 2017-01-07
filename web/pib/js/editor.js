@@ -148,7 +148,7 @@ function startVideo(){
         videojs("video-editor").ready(function () {
             var myPlayer = this;
 
-            if (myPlayer.currentTime() == "0") {
+            if (myPlayer.currentTime() < 1) {
                 myPlayer.play();
 
                 music = new Audio('/web/pib/file/' +musicData.path);

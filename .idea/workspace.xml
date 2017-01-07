@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d37acd5-3be7-40e7-802e-39b56cc69c4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/index/home.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/index/home.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/css/default.css" afterPath="$PROJECT_DIR$/web/pib/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/abe0457f9b6abc5a0835e9b5b040418c18db38e0.css.cache" afterPath="$PROJECT_DIR$/app/cache/default/abe0457f9b6abc5a0835e9b5b040418c18db38e0.css.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-...cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-gcs.assetManager.default.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.music.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.music.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.subtitle.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.subtitle.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.video.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.api.video.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encode.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encode.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encodeAjax.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.encodeAjax.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.home.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.save.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.editor.save.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler-pib.index.home.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-profiler.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" afterPath="$PROJECT_DIR$/app/cache/default/core-spam-ips.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/default/eff2e0c587fe7ec45e113314e1742944dda07cab.css.cache" afterPath="$PROJECT_DIR$/app/cache/default/eff2e0c587fe7ec45e113314e1742944dda07cab.css.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/controller/Editor.php" afterPath="$PROJECT_DIR$/src/pib/controller/Editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" afterPath="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pib/js/editor.js" afterPath="$PROJECT_DIR$/web/pib/js/editor.js" />
     </list>
     <ignored path="PIB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -64,24 +80,24 @@
       <file leaf-file-name="encode.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="271">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/pib/js/editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="79" column="40" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="40" />
+            <state relative-caret-position="448">
+              <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/home.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="676">
@@ -104,8 +120,8 @@
       <file leaf-file-name="home.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1206">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="406">
+              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -161,7 +177,6 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Autoload.php" />
         <option value="$PROJECT_DIR$/web/pib/js/top.js" />
-        <option value="$PROJECT_DIR$/web/pib/js/editor.js" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/top.tpl" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/video.tpl" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Spam.php" />
@@ -173,13 +188,14 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/main.tpl" />
-        <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl" />
         <option value="$PROJECT_DIR$/src/pib/controller/Index.php" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/shop.tpl" />
-        <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
         <option value="$PROJECT_DIR$/web/pib/css/default.css" />
         <option value="$PROJECT_DIR$/src/pib/resource/template/index/home.tpl" />
+        <option value="$PROJECT_DIR$/src/pib/controller/Editor.php" />
+        <option value="$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl" />
+        <option value="$PROJECT_DIR$/web/pib/js/editor.js" />
       </list>
     </option>
   </component>
@@ -878,12 +894,12 @@
       <workItem from="1483654511065" duration="1279000" />
       <workItem from="1483695075715" duration="3921000" />
       <workItem from="1483706886800" duration="6314000" />
-      <workItem from="1483812866771" duration="4794000" />
+      <workItem from="1483812866771" duration="5216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91803000" />
+    <option name="totallyTimeSpent" value="92225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1249,34 +1265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pib/js/editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1297,18 +1289,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1206">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pib/resource/template/index/home.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/controller/Editor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/encode.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pib/resource/template/editor/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pib/js/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
           <folding />
         </state>
       </provider>

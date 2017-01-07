@@ -80,8 +80,6 @@
                 {/gc:foreach}
             </select>
 
-            <input type="email" name="email" placeholder="Votre email" required/>
-
             <input type="submit" value="Enregistrer"/>
         </form>
     </div>

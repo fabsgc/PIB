@@ -44,7 +44,6 @@ class Editor extends Controller{
         $video = Video::findById($_POST['video-editor-video']);
         $music = Music::findById($_POST['video-editor-musics']);
         $title = $_POST['video-title'];
-        $email = $_POST['email'];
 
         if($video instanceof Video && $music instanceof Music) {
             try {
@@ -52,7 +51,7 @@ class Editor extends Controller{
                 $creation->video = $video;
                 $creation->music = $music;
                 $creation->title = $title;
-                $creation->email = $email;
+                $creation->email = 'email@email.com';
 
                 if ($_POST['video-editor-subtitles'] != 0) {
                     $creation->subtitle = Subtitle::findById($_POST['video-editor-subtitles']);
