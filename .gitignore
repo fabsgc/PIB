@@ -1,7 +1,7 @@
 .git
 .idea
-app/cache/default
-app/cache/template
+app/cache/default/
+app/cache/template/
 app/log/error.log
 app/log/history.log
 app/log/sql.log
