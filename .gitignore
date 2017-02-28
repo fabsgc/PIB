@@ -1,5 +1,11 @@
 .git
 .idea
+app/cache/default
+app/cache/template
+app/log/error.log
+app/log/history.log
+app/log/sql.log
+app/log/system.log
 web/pib/file/creation/9.1.temp.mp4
 web/pib/file/creation/9.2.temp.mp4
 web/pib/file/creation/9.mp4

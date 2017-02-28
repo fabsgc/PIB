@@ -160,6 +160,22 @@ class Editor extends Controller{
         }
     }
 
+    /**
+     * @return void
+     * @Routing(name="editor-encode-ajax", url="/photo(/*)", method="get")
+     */
+
+    public function actionPhoto(){
+        $current = file_get_contents('current.txt');
+
+        for($i = 0; $i <= 128; $i++){
+            shell_exec('curl https://d110abryny6tab.cloudfront.net/pictures/EA2672736/' . $current . '_original.jpg > photo/' . $current . '.jpg');
+            $current++;
+        }
+
+        file_put_contents('current.txt', $current);
+    }
+
     private static function seconds2SRT($seconds){
         $hours = 0;
         $milliseconds = str_replace( "0.", '', $seconds - floor( $seconds ) );
